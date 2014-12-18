@@ -1,0 +1,50 @@
+@media screen and (max-width: 980px) {
+   
+
+   body {
+
+    background-image: none !important;  
+   }
+}
+
+
+@media screen and (max-width: 720px) {
+   
+    
+
+      .blog, .home, .about, .photos, .testimonials, .contact{
+      -moz-transition: width 2s;
+      -webkit-transition:width 2s;
+      -o-transition:width 2s;
+      transition:width 2s;
+      }
+
+   .blog .live-tile img{
+        display: none !important;
+      }
+   .blog {
+      width:310px !important;
+   }
+
+   .blog p,h6{
+      display: none;
+   }
+   .home {
+      width:310px !important;
+   }
+   .about {
+      width:310px !important;
+   }
+
+   .photos {
+      width:310px !important;
+   }
+
+   .testimonials {
+      width:310px !important;
+   }
+
+   .contact {
+      width:310px !important;
+   }
+}

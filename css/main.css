@@ -1,0 +1,163 @@
+/* ==========================================================================
+   My custom styles
+   ========================================================================== */
+@import "media-query.css";
+
+body {   
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size:100% auto;
+    color:#fff;	    
+    background-color: #162a60; 
+}
+
+ @font-face {
+    font-family: Helvetica; /* Font name */
+    src: url(../fonts/HelveticaNeue-UltraLight.otf); /* path to font */
+ }
+p, h1{
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+
+p {
+
+    font-size: 18px;
+    color:#fff;	
+
+}
+.title{
+	margin:100px 0 80px 0;
+	font-size: 64px;
+}
+
+a {
+		color:#fff;
+		text-decoration: none !important;
+}
+
+
+
+a p { 
+
+	color:#fff;	
+    position: absolute;
+    bottom: 0;
+}
+
+div .row div {
+	margin: 0 10px 10px 0;
+}
+
+.wh150 {	
+	width: 150px;
+	height: 150px;
+}
+
+.w310h150 {	
+	width: 310px;
+	height: 150px;
+}
+
+.home {
+	background: url(../img/home.png) no-repeat center center;	
+	background-color: #3387ea;
+}
+
+.about{
+	background: url(../img/about.png) no-repeat center center;
+	background-color: #f9be3e;
+}
+
+.portfolio {
+	background: url(../img/portfolio.png) no-repeat center center;
+	background-color: #d3573e;
+	
+}
+.photos{
+	background: url(../img/photos.png) no-repeat center center;
+	background-color: #59b0e2;
+}
+
+.testimonials{
+	background: url(../img/testimonials.png) no-repeat center center;
+	background-color: #33af95;
+}
+
+.wanna {
+	background: url(../img/wanna.png) no-repeat center center;
+	background-color: #86a73f;
+}
+
+.blog {
+   background-color: #151a26;
+   width: 470px;
+   height: 150px;
+   padding-left: 0;
+	float:left;
+}
+
+.blog p {
+	
+   padding-top: 5px;
+}
+
+
+.blog .live-tile img{
+	float:left;
+	padding-right: 25px;
+	width: 175px;
+	height: 150px;
+}
+
+.contact{
+	background: url(../img/contacts.png) no-repeat center center;
+	background-color: #7e5b8c;
+}
+
+.wh75{
+	width: 75px;
+	height: 75px;
+}
+
+.facebook{
+	background-color: #004088;
+	background: url(../img/facebook.jpg);
+}
+
+.twitter{
+	background-color: #03abe3;
+	background: url(../img/twitter.jpg);
+}
+
+.google{
+	background-color: #f14724;
+	background: url(../img/google.jpg);
+}	
+
+.footer h5{
+		//margin:30px 0 0 20px;
+		letter-spacing: 1.5px;
+}
+
+
+
+
+a:hover div{
+
+		
+    	color: #fff;
+}
+
+a div:active {
+     	
+     	transition: background-color 0.1s ease;
+    	background-color: rgba(255, 255, 255, 0.1);
+}
+
+a div:active p{
+	display: none;
+}
+
